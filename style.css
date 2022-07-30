@@ -7,12 +7,12 @@ body{
     height:100vh;
 }
 
-header{
+header,.hero{
     background-color: #1f2937;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 2% 4%;
     align-self: stretch;
     flex-flow:row wrap;
 }
@@ -30,20 +30,79 @@ ul{
     gap:16px;
 }
 
-li{
+li,.subtext{
     list-style-type: none;
     font-size:18px;
-    color:#e5e7eb;
+    color:#b8b9bb;
 }
 
-/* footer{
+p{
+    margin:0;
+    padding:0;
+}
+
+img{
+    width:500px;
+    height:auto;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding:5px 25px;
+    color:#f9faf8;
+    /* border:none; */
+    font-weight: 500;
+
+}
+
+.hero button{
+    border:none;
+}
+
+footer{
     background-color:#1f2937;
     color:#f9faf8;
     font-size:14px;
     margin-top: auto;
     padding:12px;
-    text-align:center
+    text-align:center;
+}
 
-} */
+.hero .title{
+    font-size:48px;
+    font-weight:800;
+    color:#f9faf8;
+}
+
+h3{
+    font-size:36px;
+    font-weight:800;
+    color:#1f2937;
+}
+
+.quote{
+    background-color:#e5e7eb;
+}
+
+.quote .top{
+    font-size:36px;
+    font-style:italic;
+    font-weight:lighter;
+    color:#1f2937
+}
+
+.quote .bottom{
+    font-size:36px;
+    font-weight:600;
+    color:#1f2937
+}
+
+.action{
+    background-color:#3882f6;
+    color:white;
+}
+
+
 
 
