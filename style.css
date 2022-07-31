@@ -98,28 +98,38 @@ footer{
     padding-bottom: 10px;
 }
 
-h3{
+h4{
     font-size:36px;
     font-weight:800;
     color:#1f2937;
-    
+    text-align: center;
 }
 
 .quote{
     background-color:#e5e7eb;
+    /* padding:32px; */
+}
+
+.quote.container{
+    gap:0px;
 }
 
 .quote .top{
     font-size:36px;
     font-style:italic;
     font-weight:lighter;
-    color:#1f2937
+    color:#1f2937;
+    padding-top:48px;
+    padding-bottom: 0px;
 }
 
 .quote .bottom{
-    font-size:36px;
+    font-size:24px;
     font-weight:600;
-    color:#1f2937
+    color:#1f2937;
+    padding-bottom:48px;
+    padding-top:0px;
+    margin-left:auto;
 }
 
 .action{
