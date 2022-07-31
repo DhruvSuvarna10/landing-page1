@@ -10,7 +10,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 2% 8%;
+    padding: 2% 20%;
     flex-flow:row wrap;
     margin: 0 auto;
     gap:32px;
@@ -31,7 +31,7 @@ ul{
 
 li,.subtext{
     list-style-type: none;
-    font-size:20px;
+    font-size:18px;
     color:#b8b9bb;
 }
 
@@ -42,19 +42,17 @@ p{
 
 .hero{
     display: flex;
+    flex-wrap:wrap
 }
 
-.content,.image{
+.content{
     flex:1 1 0;
-}
-
-.hero .content{
-    max-width:30%;
 }
 
 .hero .image{
     width:510px;
     height:auto;
+    flex:1 0 auto;
 }
 
 .hero img{
@@ -67,7 +65,7 @@ p{
 }
 
 .hero .title{
-    font-size:52px;
+    font-size:48px;
     font-weight:800;
     color:#f9faf8;
 }
@@ -92,7 +90,7 @@ footer{
 }
 
 .content .title,.subtext,button{
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -122,7 +120,6 @@ h3{
     background-color:#3882f6;
     color:white;
 }
-
 
 
 
